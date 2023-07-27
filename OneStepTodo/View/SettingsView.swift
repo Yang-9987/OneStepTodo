@@ -15,7 +15,7 @@ struct SettingsView: View {
 
     var body: some View {
         VStack{
-            VStack{
+            HStack{
                 ZStack{
                     Circle()
                         .frame(width: 100, height: 100)
@@ -25,15 +25,17 @@ struct SettingsView: View {
                 }
                 Text(appSettings.userModel.name)
             }
-            Text("系统设置")
-            Button {
-                withAnimation(.easeInOut) {
-                    isFirstLaunch = 0
-                    appSettings.updateUserModel(name: "", birthday: Date(), avatar: "🥰")
+            HStack{
+                Button {
+                    withAnimation(.easeInOut) {
+                        isFirstLaunch = 0
+                        appSettings.updateUserModel(name: "", birthday: Date(), avatar: "🥰")
+                    }
+                } label: {
+                    Text("Init")
+                        .foregroundColor(.black)
                 }
-            } label: {
-                Text("Init")
-                    .foregroundColor(.black)
+                Spacer()
             }
             Spacer()
         }

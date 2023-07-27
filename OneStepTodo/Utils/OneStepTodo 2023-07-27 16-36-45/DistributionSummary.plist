@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>OneStepTodo.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>B54F7D7F44535F069B82A0785A25C3F1C8DBC8C4</string>
+				<key>dateExpires</key>
+				<string>2024/7/8</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>B54F7D7F44535F069B82A0785A25C3F1C8DBC8C4</string>
+						<key>dateExpires</key>
+						<string>2024/7/8</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>Lottie.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>LZW3K86Y6H</string>
+						<key>name</key>
+						<string>Jianqi Yang</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>LZW3K86Y6H.com.WalterYang.OneStepTodo</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>LZW3K86Y6H</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>OneStepTodo.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>f5e5258f-4a98-4f85-9ea9-5e15ce541223</string>
+				<key>dateExpires</key>
+				<string>2024/7/8</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>LZW3K86Y6H</string>
+				<key>name</key>
+				<string>Jianqi Yang</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
