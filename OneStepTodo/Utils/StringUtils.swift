@@ -116,7 +116,7 @@ func string2date(_ dateStr: String) -> Date {
     var newDate: Date?
     let dateformatter = DateFormatter()
 
-    dateformatter.dateFormat = "YYYY-MM-dd : HH:mm:ss"
+    dateformatter.dateFormat = "YYYY-MM-dd HH:mm:ss"
     newDate = dateformatter.date(from: dateStr)
 
     return newDate!

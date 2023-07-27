@@ -160,3 +160,58 @@ var categoryExamples: [MissionCategory] = [
     MissionCategory(id: "default", name: "预设", color: "FLAT FLESH", icon: "scribble"),
     MissionCategory(id: "default1", name: "预设1", color: "FLAT FLESH", icon: "scribble")
 ]
+
+struct customNotification: Identifiable, Codable {
+
+    let id: UUID
+    var title: String
+    var content: String
+    var type: NotificationType
+    var createTime: Date
+
+    init(id: UUID = UUID(), title: String, content: String, type: NotificationType, createTime: Date) {
+        self.id = id
+        self.title = title
+        self.content = content
+        self.type = type
+        self.createTime = createTime
+    }
+
+    enum NotificationType: Codable, CaseIterable {
+        case system
+        case user
+        case other
+
+        var systemImage: String {
+            switch self {
+            case .system:
+                return "gear.circle"
+            case .user:
+                return "person.circle"
+            case .other:
+                return ""
+            }
+
+        }
+
+        var color: String{
+            switch self {
+            case .system:
+                return "myGray"
+            case .user:
+                return "main"
+            case .other:
+                return ""
+            }
+        }
+
+    }
+
+}
+
+var notificationExamples: [customNotification] = [
+    customNotification(title: "恭喜你！", content: "你已经完成了两项任务", type: .user, createTime: string2date("2023-05-01 15:00:34")),
+    customNotification(title: "新的贴纸已经添加完成！", content: "现在你可以快速启动项目", type: .system, createTime: string2date("2023-04-30 17:00:00")),
+    customNotification(title: "已达成运动周目标！", content: "完成本周运动20小时", type: .system, createTime: string2date("2023-07-28 17:20:00")),
+    customNotification(title: "已达成学习周目标！", content: "完成本周学习18小时", type: .system, createTime: string2date("2023-07-21 17:00:00"))
+]

@@ -48,6 +48,7 @@ struct HomeView: View {
 
 #Preview {
     HomeView()
+        .environmentObject(AppSettings())
 }
 
 enum TabBarItem: String, CaseIterable {
