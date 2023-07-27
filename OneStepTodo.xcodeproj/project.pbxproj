@@ -7,18 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D644A2012A7041DA00FB119B /* EmojiPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D644A2002A7041DA00FB119B /* EmojiPickerView.swift */; };
+		D669BBF62A70B0B800AC31E6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D669BBF52A70B0B800AC31E6 /* SettingsView.swift */; };
+		D669BBF82A70B32D00AC31E6 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D669BBF72A70B32D00AC31E6 /* TodayView.swift */; };
+		D669BBFA2A70B33800AC31E6 /* MissionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D669BBF92A70B33800AC31E6 /* MissionListView.swift */; };
+		D669BBFC2A70B34400AC31E6 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D669BBFB2A70B34400AC31E6 /* StatisticsView.swift */; };
+		D669BBFE2A70BA8100AC31E6 /* NotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D669BBFD2A70BA8100AC31E6 /* NotificationListView.swift */; };
+		D669BC012A70BAC200AC31E6 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D669BC002A70BAC200AC31E6 /* StringUtils.swift */; };
+		D669BC032A70BD4300AC31E6 /* MissionRelatedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D669BC022A70BD4300AC31E6 /* MissionRelatedModel.swift */; };
+		D669BC052A70EFD700AC31E6 /* CustomStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D669BC042A70EFD700AC31E6 /* CustomStyle.swift */; };
+		D669BC082A71229D00AC31E6 /* SymbolPicker in Frameworks */ = {isa = PBXBuildFile; productRef = D669BC072A71229D00AC31E6 /* SymbolPicker */; };
 		D670503C2A701F1700C6D87B /* OneStepTodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D670503B2A701F1700C6D87B /* OneStepTodoApp.swift */; };
-		D670503E2A701F1700C6D87B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D670503D2A701F1700C6D87B /* ContentView.swift */; };
+		D670503E2A701F1700C6D87B /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D670503D2A701F1700C6D87B /* OnboardingScreen.swift */; };
 		D67050402A701F1A00C6D87B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D670503F2A701F1A00C6D87B /* Assets.xcassets */; };
 		D67050432A701F1A00C6D87B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D67050422A701F1A00C6D87B /* Preview Assets.xcassets */; };
+		D67050502A70218F00C6D87B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D670504F2A70218F00C6D87B /* LaunchScreen.storyboard */; };
+		D67050522A70222900C6D87B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67050512A70222900C6D87B /* AppDelegate.swift */; };
+		D67050582A70245800C6D87B /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D67050572A70245800C6D87B /* Lottie */; };
+		D670505A2A70246400C6D87B /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67050592A70246400C6D87B /* LottieView.swift */; };
+		D670505F2A70248D00C6D87B /* conversation.json in Resources */ = {isa = PBXBuildFile; fileRef = D670505C2A70248D00C6D87B /* conversation.json */; };
+		D67050602A70248D00C6D87B /* dynamicLine.json in Resources */ = {isa = PBXBuildFile; fileRef = D670505D2A70248D00C6D87B /* dynamicLine.json */; };
+		D67050612A70248D00C6D87B /* Error.json in Resources */ = {isa = PBXBuildFile; fileRef = D670505E2A70248D00C6D87B /* Error.json */; };
+		D67050642A70250200C6D87B /* WelcomPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67050632A70250200C6D87B /* WelcomPageModel.swift */; };
+		D67050662A70269100C6D87B /* WelcomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67050652A70269100C6D87B /* WelcomePageView.swift */; };
+		D670506C2A702A5200C6D87B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D670506B2A702A5200C6D87B /* HomeView.swift */; };
+		D670506F2A703D3600C6D87B /* EmojiPicker in Frameworks */ = {isa = PBXBuildFile; productRef = D670506E2A703D3600C6D87B /* EmojiPicker */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D644A2002A7041DA00FB119B /* EmojiPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiPickerView.swift; sourceTree = "<group>"; };
+		D669BBF52A70B0B800AC31E6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D669BBF72A70B32D00AC31E6 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		D669BBF92A70B33800AC31E6 /* MissionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionListView.swift; sourceTree = "<group>"; };
+		D669BBFB2A70B34400AC31E6 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		D669BBFD2A70BA8100AC31E6 /* NotificationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationListView.swift; sourceTree = "<group>"; };
+		D669BC002A70BAC200AC31E6 /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		D669BC022A70BD4300AC31E6 /* MissionRelatedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionRelatedModel.swift; sourceTree = "<group>"; };
+		D669BC042A70EFD700AC31E6 /* CustomStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyle.swift; sourceTree = "<group>"; };
 		D67050382A701F1700C6D87B /* OneStepTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneStepTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D670503B2A701F1700C6D87B /* OneStepTodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStepTodoApp.swift; sourceTree = "<group>"; };
-		D670503D2A701F1700C6D87B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D670503D2A701F1700C6D87B /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 		D670503F2A701F1A00C6D87B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D67050422A701F1A00C6D87B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D670504F2A70218F00C6D87B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D67050512A70222900C6D87B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D67050592A70246400C6D87B /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		D670505C2A70248D00C6D87B /* conversation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = conversation.json; sourceTree = "<group>"; };
+		D670505D2A70248D00C6D87B /* dynamicLine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dynamicLine.json; sourceTree = "<group>"; };
+		D670505E2A70248D00C6D87B /* Error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Error.json; sourceTree = "<group>"; };
+		D67050632A70250200C6D87B /* WelcomPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomPageModel.swift; sourceTree = "<group>"; };
+		D67050652A70269100C6D87B /* WelcomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageView.swift; sourceTree = "<group>"; };
+		D670506B2A702A5200C6D87B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,19 +65,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D67050582A70245800C6D87B /* Lottie in Frameworks */,
+				D670506F2A703D3600C6D87B /* EmojiPicker in Frameworks */,
+				D669BC082A71229D00AC31E6 /* SymbolPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D644A1FF2A7041BF00FB119B /* EmojiPicker */ = {
+			isa = PBXGroup;
+			children = (
+				D644A2002A7041DA00FB119B /* EmojiPickerView.swift */,
+			);
+			path = EmojiPicker;
+			sourceTree = "<group>";
+		};
+		D669BBFF2A70BAB500AC31E6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D669BC002A70BAC200AC31E6 /* StringUtils.swift */,
+				D669BC042A70EFD700AC31E6 /* CustomStyle.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		D670502F2A701F1700C6D87B = {
 			isa = PBXGroup;
 			children = (
 				D670503A2A701F1700C6D87B /* OneStepTodo */,
 				D67050392A701F1700C6D87B /* Products */,
 			);
+			indentWidth = 4;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		D67050392A701F1700C6D87B /* Products */ = {
 			isa = PBXGroup;
@@ -51,9 +112,12 @@
 		D670503A2A701F1700C6D87B /* OneStepTodo */ = {
 			isa = PBXGroup;
 			children = (
-				D670503B2A701F1700C6D87B /* OneStepTodoApp.swift */,
-				D670503D2A701F1700C6D87B /* ContentView.swift */,
 				D670503F2A701F1A00C6D87B /* Assets.xcassets */,
+				D67050532A70223700C6D87B /* AppInit */,
+				D67050622A7024C800C6D87B /* Model */,
+				D67050542A70228600C6D87B /* View */,
+				D67050552A70240B00C6D87B /* Lottie */,
+				D669BBFF2A70BAB500AC31E6 /* Utils */,
 				D67050412A701F1A00C6D87B /* Preview Content */,
 			);
 			path = OneStepTodo;
@@ -65,6 +129,60 @@
 				D67050422A701F1A00C6D87B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D67050532A70223700C6D87B /* AppInit */ = {
+			isa = PBXGroup;
+			children = (
+				D67050512A70222900C6D87B /* AppDelegate.swift */,
+				D670503B2A701F1700C6D87B /* OneStepTodoApp.swift */,
+			);
+			path = AppInit;
+			sourceTree = "<group>";
+		};
+		D67050542A70228600C6D87B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D670504F2A70218F00C6D87B /* LaunchScreen.storyboard */,
+				D670503D2A701F1700C6D87B /* OnboardingScreen.swift */,
+				D67050652A70269100C6D87B /* WelcomePageView.swift */,
+				D670506B2A702A5200C6D87B /* HomeView.swift */,
+				D669BBF72A70B32D00AC31E6 /* TodayView.swift */,
+				D669BBF92A70B33800AC31E6 /* MissionListView.swift */,
+				D669BBFB2A70B34400AC31E6 /* StatisticsView.swift */,
+				D669BBF52A70B0B800AC31E6 /* SettingsView.swift */,
+				D644A1FF2A7041BF00FB119B /* EmojiPicker */,
+				D669BBFD2A70BA8100AC31E6 /* NotificationListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D67050552A70240B00C6D87B /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				D670505B2A70247900C6D87B /* animations */,
+				D67050592A70246400C6D87B /* LottieView.swift */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		D670505B2A70247900C6D87B /* animations */ = {
+			isa = PBXGroup;
+			children = (
+				D670505C2A70248D00C6D87B /* conversation.json */,
+				D670505D2A70248D00C6D87B /* dynamicLine.json */,
+				D670505E2A70248D00C6D87B /* Error.json */,
+			);
+			path = animations;
+			sourceTree = "<group>";
+		};
+		D67050622A7024C800C6D87B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D67050632A70250200C6D87B /* WelcomPageModel.swift */,
+				D669BC022A70BD4300AC31E6 /* MissionRelatedModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +201,11 @@
 			dependencies = (
 			);
 			name = OneStepTodo;
+			packageProductDependencies = (
+				D67050572A70245800C6D87B /* Lottie */,
+				D670506E2A703D3600C6D87B /* EmojiPicker */,
+				D669BC072A71229D00AC31E6 /* SymbolPicker */,
+			);
 			productName = OneStepTodo;
 			productReference = D67050382A701F1700C6D87B /* OneStepTodo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +234,11 @@
 				Base,
 			);
 			mainGroup = D670502F2A701F1700C6D87B;
+			packageReferences = (
+				D67050562A70245800C6D87B /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				D670506D2A703D3600C6D87B /* XCRemoteSwiftPackageReference "EmojiPicker" */,
+				D669BC062A71229D00AC31E6 /* XCRemoteSwiftPackageReference "SymbolPicker" */,
+			);
 			productRefGroup = D67050392A701F1700C6D87B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +253,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D67050612A70248D00C6D87B /* Error.json in Resources */,
+				D670505F2A70248D00C6D87B /* conversation.json in Resources */,
+				D67050602A70248D00C6D87B /* dynamicLine.json in Resources */,
+				D67050502A70218F00C6D87B /* LaunchScreen.storyboard in Resources */,
 				D67050432A701F1A00C6D87B /* Preview Assets.xcassets in Resources */,
 				D67050402A701F1A00C6D87B /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +269,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D670503E2A701F1700C6D87B /* ContentView.swift in Sources */,
+				D670506C2A702A5200C6D87B /* HomeView.swift in Sources */,
+				D67050522A70222900C6D87B /* AppDelegate.swift in Sources */,
+				D67050642A70250200C6D87B /* WelcomPageModel.swift in Sources */,
+				D669BBFC2A70B34400AC31E6 /* StatisticsView.swift in Sources */,
+				D669BBFE2A70BA8100AC31E6 /* NotificationListView.swift in Sources */,
+				D67050662A70269100C6D87B /* WelcomePageView.swift in Sources */,
+				D669BC012A70BAC200AC31E6 /* StringUtils.swift in Sources */,
+				D670503E2A701F1700C6D87B /* OnboardingScreen.swift in Sources */,
+				D669BC052A70EFD700AC31E6 /* CustomStyle.swift in Sources */,
+				D644A2012A7041DA00FB119B /* EmojiPickerView.swift in Sources */,
 				D670503C2A701F1700C6D87B /* OneStepTodoApp.swift in Sources */,
+				D669BBFA2A70B33800AC31E6 /* MissionListView.swift in Sources */,
+				D670505A2A70246400C6D87B /* LottieView.swift in Sources */,
+				D669BC032A70BD4300AC31E6 /* MissionRelatedModel.swift in Sources */,
+				D669BBF82A70B32D00AC31E6 /* TodayView.swift in Sources */,
+				D669BBF62A70B0B800AC31E6 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +424,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +455,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +494,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D669BC062A71229D00AC31E6 /* XCRemoteSwiftPackageReference "SymbolPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kelvas09/SymbolPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		D67050562A70245800C6D87B /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+		D670506D2A703D3600C6D87B /* XCRemoteSwiftPackageReference "EmojiPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kelvas09/EmojiPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D669BC072A71229D00AC31E6 /* SymbolPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D669BC062A71229D00AC31E6 /* XCRemoteSwiftPackageReference "SymbolPicker" */;
+			productName = SymbolPicker;
+		};
+		D67050572A70245800C6D87B /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D67050562A70245800C6D87B /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		D670506E2A703D3600C6D87B /* EmojiPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D670506D2A703D3600C6D87B /* XCRemoteSwiftPackageReference "EmojiPicker" */;
+			productName = EmojiPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D67050302A701F1700C6D87B /* Project object */;
 }

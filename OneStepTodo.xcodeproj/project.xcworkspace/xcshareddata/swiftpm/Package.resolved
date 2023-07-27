@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "emojipicker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kelvas09/EmojiPicker.git",
+      "state" : {
+        "revision" : "d787591e2121b617209172ad6a8ebf2975f605ae",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "lottie-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-spm.git",
+      "state" : {
+        "revision" : "60ea4f82fba8b4cb21a75665a889e86ed4d81c6e",
+        "version" : "4.2.0"
+      }
+    },
+    {
+      "identity" : "smile",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onmyway133/Smile",
+      "state" : {
+        "revision" : "40604722a7a56f735124e069fcbb58307637744b",
+        "version" : "2.1.0"
+      }
+    },
+    {
+      "identity" : "symbolpicker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kelvas09/SymbolPicker.git",
+      "state" : {
+        "revision" : "1eba99f14b483f9f02c55af430cb0b5bdef1d870",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}

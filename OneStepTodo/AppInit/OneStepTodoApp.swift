@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct OneStepTodoApp: App {
+
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    @StateObject var appSettings = AppSettings()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnboardingScreen()
+                .environmentObject(appSettings)
+                .preferredColorScheme(.light)
         }
     }
 }
