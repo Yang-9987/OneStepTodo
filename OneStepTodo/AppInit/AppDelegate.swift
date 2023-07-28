@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil, continue userActivity: NSUserActivity, restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
         // Your code here
-        Thread.sleep(forTimeInterval: 2.0) // 添加这行代码 启动画面延长2秒
+//        Thread.sleep(forTimeInterval: 2.0) // 添加这行代码 启动画面延长2秒
         return true
     }
 }

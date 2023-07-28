@@ -22,7 +22,7 @@ struct Mission: Identifiable, Codable {
     var isCompleted: Bool
     var isImportant: Bool
 
-    init(id: UUID = UUID(), title: String, category: MissionCategory, createDate: Date, missionType: MissionType, content: [note], targetDoneTimes: Int, doneTimes: Int, targetDoneIntervalTime: Double, doneIntervalTime: Double, isCompleted: Bool, isImportant: Bool) {
+    init(id: UUID = UUID(), title: String, category: MissionCategory, createDate: Date, missionType: MissionType, content: [note], targetDoneTimes: Int = 0, doneTimes: Int = 0, targetDoneIntervalTime: Double = 0, doneIntervalTime: Double = 0, isCompleted: Bool, isImportant: Bool) {
         self.id = id
         self.title = title
         self.category = category
@@ -89,6 +89,13 @@ struct Mission: Identifiable, Codable {
         isImportant = data.isImportant
     }
 }
+
+var missionExamples: [Mission] = [
+    Mission(title: "背单词", category: MissionCategory(id: "default", name: "预设1", color: "FLAT FLESH", icon: "scribble"), createDate: Date(), missionType: MissionType.timing, content: [], targetDoneTimes: 0, doneTimes: 0, targetDoneIntervalTime: 100000, doneIntervalTime: 0, isCompleted: false, isImportant: false),
+    Mission(title: "做试卷", category: MissionCategory(id: "fitness", name: "健身", color: "MELON MELODY", icon: "figure.run"), createDate: Date(), missionType: MissionType.timing, content: [], targetDoneTimes: 0, doneTimes: 0, targetDoneIntervalTime: 300000, doneIntervalTime: 0, isCompleted: false, isImportant: false),
+    Mission(title: "喝水", category: MissionCategory(id: "water", name: "喝水", color: "AZRAQ BLUE", icon: "cup.and.saucer"), createDate: Date(), missionType: MissionType.metering, content: [], targetDoneTimes: 10, doneTimes: 0, targetDoneIntervalTime: 0, doneIntervalTime: 0, isCompleted: false, isImportant: false),
+    Mission(title: "遛狗", category: MissionCategory(id: "life", name: "生活", color: "AZRAQ BLUE", icon: "house"), createDate: Date(), missionType: MissionType.metering, content: [], targetDoneTimes: 2, doneTimes: 0, targetDoneIntervalTime: 0, doneIntervalTime: 0, isCompleted: false, isImportant: false),
+]
 
 struct note: Identifiable, Codable {
     let id: UUID

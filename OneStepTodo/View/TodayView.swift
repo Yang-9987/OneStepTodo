@@ -21,6 +21,10 @@ struct TodayView: View {
     // 添加任务
     @State private var isPresentedAddView = false
 
+    var missionList: [Mission] = missionExamples.sorted { m1, m2 in
+        m1.createDate > m2.createDate
+    }
+
     var body: some View {
         VStack {
             // HeadLine
@@ -42,8 +46,13 @@ struct TodayView: View {
                 }
 
                 ScrollView(.vertical) {
-                    ForEach(0 ..< 10) { item in
-                        ListCellView(title: String(item), description: String(item), content: String(item))
+                    ForEach(missionList, id: \.self.id) { item in
+                        if item.missionType == .metering {
+                            ListCellView(title: item.title, category: item.category, done: String(item.doneTimes), target: String(item.targetDoneTimes), content: item.notes)
+                        } else if item.missionType == .timing {
+                            ListCellView(title: item.title, category: item.category, done: String(item.doneIntervalTime), target: String(item.targetDoneIntervalTime), content: item.notes)
+                        }
+
                     }
                     Spacer(minLength: 110)
                 }
@@ -194,8 +203,10 @@ struct ProgressBarView: View {
 
 struct ListCellView: View {
     var title: String
-    var description: String
-    var content: String
+    var category: MissionCategory
+    var done: String
+    var target: String
+    var content: [note]
 
     var body: some View {
         HStack {
@@ -203,20 +214,22 @@ struct ListCellView: View {
                 Rectangle()
                     .frame(width: 50, height: 50)
                     .cornerRadius(20)
-                    .foregroundColor(.blue)
-                Image(systemName: "questionmark.circle")
+                    .foregroundColor(Color(category.color))
+                Image(systemName: category.icon)
                     .foregroundColor(.white)
             }
             .padding()
             VStack(alignment: .leading, content: {
                 Text("\(title)")
                     .font(.system(size: 20, weight: .semibold, design: .default))
-                Text("\(description)")
+                Text("\(done)" + "/" + "\(target)")
                     .font(.system(size: 15, weight: .thin, design: .default))
             })
             Spacer()
             NavigationLink {
-                Text("\(content)")
+                ForEach(content) { note in
+                    Text("\(note.content)")
+                }
             } label: {
                 ZStack {
                     Circle()
