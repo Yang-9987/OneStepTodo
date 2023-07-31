@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import AppIntents
 
 struct Mission: Identifiable, Codable {
 
@@ -98,6 +99,7 @@ var missionExamples: [Mission] = [
 ]
 
 struct note: Identifiable, Codable {
+
     let id: UUID
     var content: String
 
