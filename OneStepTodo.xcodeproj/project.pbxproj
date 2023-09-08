@@ -41,6 +41,7 @@
 		D62974712A74C7C000BF63A1 /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
 		D62974742A74C9C800BF63A1 /* MeteringMission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteringMission.swift; sourceTree = "<group>"; };
 		D62974762A74C9D600BF63A1 /* TimingMission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingMission.swift; sourceTree = "<group>"; };
+		D63BC85A2A78028700662814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D644A2002A7041DA00FB119B /* EmojiPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiPickerView.swift; sourceTree = "<group>"; };
 		D669BBF52A70B0B800AC31E6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		D669BBF72A70B32D00AC31E6 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
@@ -50,6 +51,7 @@
 		D669BC002A70BAC200AC31E6 /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
 		D669BC022A70BD4300AC31E6 /* MissionRelatedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionRelatedModel.swift; sourceTree = "<group>"; };
 		D669BC042A70EFD700AC31E6 /* CustomStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyle.swift; sourceTree = "<group>"; };
+		D66FACD42A9BE0B100F9FD8B /* OneStepTodo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneStepTodo.entitlements; sourceTree = "<group>"; };
 		D67050382A701F1700C6D87B /* OneStepTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneStepTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D670503B2A701F1700C6D87B /* OneStepTodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStepTodoApp.swift; sourceTree = "<group>"; };
 		D670503D2A701F1700C6D87B /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
@@ -136,6 +138,8 @@
 		D670503A2A701F1700C6D87B /* OneStepTodo */ = {
 			isa = PBXGroup;
 			children = (
+				D66FACD42A9BE0B100F9FD8B /* OneStepTodo.entitlements */,
+				D63BC85A2A78028700662814 /* Info.plist */,
 				D670503F2A701F1A00C6D87B /* Assets.xcassets */,
 				D67050532A70223700C6D87B /* AppInit */,
 				D67050622A7024C800C6D87B /* Model */,
@@ -444,12 +448,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = OneStepTodo/OneStepTodo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OneStepTodo/Preview Content\"";
 				DEVELOPMENT_TEAM = LZW3K86Y6H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneStepTodo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = OneStepTodo;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -478,12 +484,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = OneStepTodo/OneStepTodo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OneStepTodo/Preview Content\"";
 				DEVELOPMENT_TEAM = LZW3K86Y6H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneStepTodo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = OneStepTodo;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

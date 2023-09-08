@@ -52,7 +52,7 @@ struct WelcomePageView: View {
                     Spacer()
                     VStack {
                         HStack{
-                            Text("Name")
+                            Text("昵称")
                                 .font(.headline)
                             TextField("昵称", text: $name)
                                 .textFieldStyle(.roundedBorder)

@@ -32,7 +32,7 @@ struct SettingsView: View {
                 Button {
                     withAnimation(.easeInOut) {
                         isFirstLaunch = 0
-                        appSettings.updateUserModel(name: "Walter", birthday: Date(), avatar: "😘")
+                        appSettings.updateUserModel(name: "", birthday: Date(), avatar: "😘")
                     }
                 } label: {
                     Text("Init")

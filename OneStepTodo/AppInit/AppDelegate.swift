@@ -26,7 +26,7 @@ class AppSettings: ObservableObject {
             guard let data = userModelData,
                   let userModel = try? JSONDecoder().decode(UserModel.self, from: data)
             else {
-                return UserModel(name: "Walter", birthday: Date(), avatar: "😘")
+                return UserModel(name: "", birthday: Date(), avatar: "")
             }
             return userModel
         }
